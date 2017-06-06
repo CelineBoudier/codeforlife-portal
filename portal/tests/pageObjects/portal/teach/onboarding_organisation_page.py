@@ -41,7 +41,7 @@ import onboarding_revoke_request_page
 
 from selenium.webdriver.support.ui import Select
 
-from teach_base_page_new import TeachBasePage
+from teach_base_page import TeachBasePage
 
 
 class OnboardingOrganisationPage(TeachBasePage):

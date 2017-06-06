@@ -46,7 +46,7 @@ import dismiss_students_page
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 
-from teach_base_page_new import TeachBasePage
+from teach_base_page import TeachBasePage
 
 
 class OnboardingStudentsPage(TeachBasePage):

@@ -79,7 +79,7 @@ class TeachPage(BasePage):
     def _login(self, email, password):
         self.browser.find_element_by_id('id_login-teacher_email').send_keys(email)
         self.browser.find_element_by_id('id_login-teacher_password').send_keys(password)
-        self.browser.find_element_by_name('login').click()
+        self.browser.find_element_by_name('login_view').click()
 
     def has_login_failed(self):
         if not self.element_exists_by_css('.errorlist'):

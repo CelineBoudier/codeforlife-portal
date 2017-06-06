@@ -39,6 +39,7 @@ from datetime import timedelta
 from requests import post
 from requests.exceptions import RequestException
 
+from django.conf import settings
 from django.utils import timezone
 from django.core.mail import EmailMultiAlternatives
 from django.template import Context, loader

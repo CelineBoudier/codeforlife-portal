@@ -36,7 +36,7 @@
 # identified as the original program.
 import onboarding_organisation_page
 
-from teach_base_page_new import TeachBasePage
+from teach_base_page import TeachBasePage
 
 
 class OnboardingRevokeRequestPage(TeachBasePage):

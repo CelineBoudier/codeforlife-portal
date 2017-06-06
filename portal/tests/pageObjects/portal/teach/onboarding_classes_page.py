@@ -39,7 +39,7 @@ from selenium.webdriver.support.ui import Select
 import class_page
 import onboarding_students_page
 
-from teach_base_page_new import TeachBasePage
+from teach_base_page import TeachBasePage
 
 
 class OnboardingClassesPage(TeachBasePage):

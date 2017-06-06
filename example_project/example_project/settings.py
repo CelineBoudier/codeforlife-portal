@@ -61,7 +61,7 @@ ROOT_URLCONF = 'django_autoconfig.autourlconf'
 
 WSGI_APPLICATION = 'example_project.wsgi.application'
 
-LOGIN_REDIRECT_URL = '/portal/redesign/teach/dashboard/'
+LOGIN_REDIRECT_URL = '/portal/teach/dashboard/'
 
 INSTALLED_APPS = (
     'portal',

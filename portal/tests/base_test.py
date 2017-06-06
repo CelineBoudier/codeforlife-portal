@@ -35,8 +35,8 @@
 # program; modified versions of the program must be marked as such and not
 # identified as the original program.
 import os
-import time
 import socket
+import time
 from django.core.urlresolvers import reverse
 
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
@@ -44,15 +44,11 @@ from django_selenium_clean import selenium, SeleniumTestCase
 from unittest import skipUnless
 
 
-#### Uncomment to use FireFox
+# Uncomment to use FireFox
 # master_browser = webdriver.Firefox()
-from . import custom_handler
 from portal.tests.pageObjects.portal.game_page import GamePage
 from portal.tests.pageObjects.portal.home_page import HomePage
 from deploy import captcha
-
-
-custom_handler.add_timeout()
 
 
 @skipUnless(selenium, "Selenium is unconfigured")

@@ -36,8 +36,8 @@
 # identified as the original program.
 from selenium.webdriver.support.ui import Select
 
-from teach_base_page_new import TeachBasePage
-import class_page_new
+from teach_base_page import TeachBasePage
+import class_page
 
 
 class OnboardingStudentListPage(TeachBasePage):
@@ -51,4 +51,4 @@ class OnboardingStudentListPage(TeachBasePage):
 
     def go_back_to_class(self):
         self.browser.find_element_by_id("back_to_class_button").click()
-        return class_page_new.TeachClassPage(self.browser)
+        return class_page.TeachClassPage(self.browser)
